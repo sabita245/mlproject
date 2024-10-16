@@ -11,7 +11,7 @@ def run_task(script_name):
     
     try:
         # Run the external Python script using its full path
-        result = subprocess.run(['python', script_path], capture_output=True, text=True)
+        result = subprocess.run(['python3', script_path], capture_output=True, text=True)
         
         # Log both stdout and stderr
         if result.returncode == 0:
@@ -33,11 +33,13 @@ def main_flow():
     # Run tasks sequentially and capture the results
    data1 = run_task("BasicStats.py")
    data2 = run_task("Binning.py", wait_for=[data1])  
-   data3 = run_task("PearsonCorrelation.py", wait_for=[data2]) 
+   data3 = run_task("corelationcoefficient.py", wait_for=[data2])
+   
+    
 
 # To run locally
 if __name__ == "__main__":
-    main_flow.serve(name="covid-ds-workflow",
-                      tags=["covid datascience project workflow"],
+    main_flow.serve(name="loan-prediction-ds-workflow",
+                      tags=["loan prediction datascience project workflow"],
                       parameters={},
                       interval=60)

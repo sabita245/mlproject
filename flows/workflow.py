@@ -11,8 +11,8 @@ from sklearn.preprocessing import MinMaxScaler
 @task
 def load_dataset():
     # Load the dataset
-    url = "https://raw.githubusercontent.com/jbrownlee/Datasets/refs/heads/master/ecoli.csv"
-    column_names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
+    url = "https://raw.githubusercontent.com/jbrownlee/Datasets/refs/heads/master/phoneme.csv"
+    column_names = ['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'class']
     return pd.read_csv(url, names=column_names)
 
 # Step 3: Data Preprocessing
@@ -63,7 +63,7 @@ def train_model(df):
 
 # Step 5: Define Prefect Flow
 @flow(log_prints=True)
-def workflow_pima_indians():
+def workflow_boston_housing():
     # step 1 = loading data
     data = load_dataset()
     # step 2 = preprocessing
@@ -75,7 +75,7 @@ def workflow_pima_indians():
    
 # Step 6: Run the Prefect Flow
 if __name__ == "__main__":
-    workflow_pima_indians.serve(name="pima-indian-workflow",
+    workflow_boston_housing.serve(name="workflow_boston_housing",
                       tags=["first workflow"],
                       parameters={},
                       interval=120)

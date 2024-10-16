@@ -16,7 +16,6 @@ from sklearn import preprocessing
 import matplotlib.pyplot as plt
 from sklearn.impute import SimpleImputer
 
-
 df = pd.read_csv("../data/dataset.csv")
 df['Dependents'].value_counts()
 df = df.replace(to_replace='3+', value=4)
@@ -31,6 +30,7 @@ print(X)
 print(Y)
 X_train, X_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.1,stratify=Y,random_state=2)
 print(X.shape, X_train.shape, X_test.shape)
+
 classifier = svm.SVC(kernel='linear')
 classifier.fit(X_train,Y_train)
 X_train_prediction = classifier.predict(X_train)
@@ -39,3 +39,4 @@ print('Accuracy on training data : ', training_data_accuray)
 X_test_prediction = classifier.predict(X_test)
 test_data_accuray = accuracy_score(X_test_prediction,Y_test)
 print('Accuracy on test data : ', test_data_accuray)
+

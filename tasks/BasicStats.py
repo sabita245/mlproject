@@ -12,12 +12,7 @@ logger = logging.getLogger(__name__)
 df = pd.read_csv("../data/dataset.csv")
 logger.info("Dataset loaded successfully.")
 logger.info(f"DataFrame head:\n{df.head()}")
-#logger.info(f"\n{df.describe(include='all')}")
 
-# Convert date columns to datetime format
-# df['Admit_date'] = pd.to_datetime(df['Admit_date'], errors='coerce', dayfirst=True)
-# df['Discharge_date'] = pd.to_datetime(df['Discharge_date'], errors='coerce', dayfirst=True)
-# logger.info("Converted date columns to datetime format.")
 
 # Summary statistics
 logger.info("Summary Statistics:")

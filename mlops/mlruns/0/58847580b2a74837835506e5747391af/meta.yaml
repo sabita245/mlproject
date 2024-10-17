@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/58847580b2a74837835506e5747391af/artifacts
+deleted_time: 1710234143581
+end_time: 1710233783386
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 58847580b2a74837835506e5747391af
+run_name: wise-rook-317
+run_uuid: 58847580b2a74837835506e5747391af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710233779017
+status: 4
+tags: []
+user_id: BITS

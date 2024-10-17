@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/6f826941678e49feaad6a500dbf5b62b/artifacts
+deleted_time: 1726393744435
+end_time: 1726391942397
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 6f826941678e49feaad6a500dbf5b62b
+run_name: enthused-penguin-994
+run_uuid: 6f826941678e49feaad6a500dbf5b62b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726391929410
+status: 3
+tags: []
+user_id: BITS

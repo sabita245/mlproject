@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/6ad256a236cf44f79a55f0845816a6ce/artifacts
+deleted_time: 1710235679365
+end_time: 1710234232075
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 6ad256a236cf44f79a55f0845816a6ce
+run_name: charming-skunk-711
+run_uuid: 6ad256a236cf44f79a55f0845816a6ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710234223020
+status: 3
+tags: []
+user_id: BITS

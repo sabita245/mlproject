@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/34f29e7f755b4991bed87967f9d659d4/artifacts
+deleted_time: 1710235679336
+end_time: 1710235571574
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 34f29e7f755b4991bed87967f9d659d4
+run_name: valuable-snail-130
+run_uuid: 34f29e7f755b4991bed87967f9d659d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710235569399
+status: 4
+tags: []
+user_id: BITS

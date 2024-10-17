@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/aabbc3cb067b4bf7ab27143502781489/artifacts
+deleted_time: 1710233723444
+end_time: 1710233659076
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: aabbc3cb067b4bf7ab27143502781489
+run_name: melodic-dolphin-868
+run_uuid: aabbc3cb067b4bf7ab27143502781489
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710233653248
+status: 4
+tags: []
+user_id: BITS

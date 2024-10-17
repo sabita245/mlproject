@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1726388065105
+current_stage: None
+description: ''
+last_updated_timestamp: 1726388065105
+name: covid-model1
+run_id: 2f532e05f5734625a139936aa9ba8da7
+run_link: ''
+source: mlflow-artifacts:/0/2f532e05f5734625a139936aa9ba8da7/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/0/2f532e05f5734625a139936aa9ba8da7/artifacts/model
+user_id: null
+version: 1

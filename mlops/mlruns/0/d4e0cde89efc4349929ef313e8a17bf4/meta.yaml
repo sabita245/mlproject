@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/d4e0cde89efc4349929ef313e8a17bf4/artifacts
+deleted_time: 1710233723444
+end_time: 1710233668596
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: d4e0cde89efc4349929ef313e8a17bf4
+run_name: adorable-owl-468
+run_uuid: d4e0cde89efc4349929ef313e8a17bf4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710233663550
+status: 4
+tags: []
+user_id: BITS

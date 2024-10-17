@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/ad5970e9f0b2400ab43bd4da38863bbc/artifacts
+deleted_time: 1726393744456
+end_time: 1725784916959
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ad5970e9f0b2400ab43bd4da38863bbc
+run_name: adventurous-calf-622
+run_uuid: ad5970e9f0b2400ab43bd4da38863bbc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725784900300
+status: 3
+tags: []
+user_id: BITS

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/bdceea07c3ee4f06a59874398885b2d7/artifacts
+deleted_time: 1710235679365
+end_time: 1710234761177
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: bdceea07c3ee4f06a59874398885b2d7
+run_name: fearless-gnu-633
+run_uuid: bdceea07c3ee4f06a59874398885b2d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710234754883
+status: 3
+tags: []
+user_id: BITS

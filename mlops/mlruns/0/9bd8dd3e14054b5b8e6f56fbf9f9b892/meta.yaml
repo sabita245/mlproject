@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/9bd8dd3e14054b5b8e6f56fbf9f9b892/artifacts
+deleted_time: 1726393744435
+end_time: 1710236178679
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 9bd8dd3e14054b5b8e6f56fbf9f9b892
+run_name: polite-bee-670
+run_uuid: 9bd8dd3e14054b5b8e6f56fbf9f9b892
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710236171032
+status: 3
+tags: []
+user_id: BITS

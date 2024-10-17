@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/de1b4751f02141848da5c254bf1fffbe/artifacts
+deleted_time: 1710233723444
+end_time: 1710233648684
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: de1b4751f02141848da5c254bf1fffbe
+run_name: peaceful-cub-895
+run_uuid: de1b4751f02141848da5c254bf1fffbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710233636745
+status: 4
+tags: []
+user_id: BITS
